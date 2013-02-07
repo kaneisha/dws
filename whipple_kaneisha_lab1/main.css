@@ -1,0 +1,40 @@
+	* {
+		font-family: helvetica
+		}
+		
+		h1,h2,h3{
+		color: orange;
+		}
+		
+		p{
+		color: red;
+		}
+		
+		.headline{
+		color: purple;
+		}
+		
+		ol li{
+		color: magenta;
+		}
+		
+		#size{
+		font-size: 24px;
+		}
+		
+		.gray:first-line{
+		color:silver;
+		}
+		
+		a:link{
+		color:green;
+		}
+		a:visited{
+		color:brown;
+		}
+		a:hover{
+		color:fuchsia;
+		}
+		a:active{
+		color:yellow;
+		}
