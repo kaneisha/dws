@@ -1,16 +1,32 @@
-
-p{
-background-color: black;
-}
-
-p{
-color: white;
-}
-
+body{
+	background-color: teal;
+	}
+	
 h1{
-font-size: 40px;
-font-family: arial;
-font-weight: normal;
-font-variant: normal;
-font-style: italic;
-}
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 4px 4px 4px #666
+	}
+		
+p{
+	color: white;
+	}
+
+ul{
+	list-style-type: none;
+	}
+
+a{
+	text-decoration: none;
+	}
+
+ol{
+	opacity: .5;
+	}
+
+
+
