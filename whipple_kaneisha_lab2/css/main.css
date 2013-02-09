@@ -8,16 +8,19 @@ h1{
 	font-weight: bold;
 	font-variant: normal;
 	font-style: italic;
+	color: gray;
 	text-align: center;
-	text-shadow: 4px 4px 4px #666
+	text-shadow: 4px 4px 4px #000;
 	}
 		
 p{
 	color: white;
+	line-height: 1.5
 	}
 
 ul{
 	list-style-type: none;
+	color: white;
 	}
 
 a{
@@ -26,6 +29,12 @@ a{
 
 ol{
 	opacity: .5;
+	font: bold 15px arial, sans-serif;
+	}
+	
+div img{
+	display: block;
+	margin: auto;
 	}
 
 
