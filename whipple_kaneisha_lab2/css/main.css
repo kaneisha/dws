@@ -10,8 +10,13 @@ h1{
 	font-style: italic;
 	color: gray;
 	text-align: center;
-	text-shadow: 4px 4px 4px #000;
-	letter spacing: 3;
+	text-shadow: 4px 4px 4px rgba(255,0,0,.85);
+	letter-spacing: 1px;
+	}
+/* Main Content	 */
+h2{
+	word-spacing: .5px;
+	text-transform: uppercase;
 	}
 		
 p{
@@ -21,7 +26,6 @@ p{
 
 ul{
 	list-style-type: none;
-	color: white;
 	}
 
 a{
@@ -31,12 +35,17 @@ a{
 ol{
 	opacity: .5;
 	font: bold 15px arial, sans-serif;
+	vertical-align: middle;
 	}
+/* 	Main Content Ends */
 	
 div img{
 	display: block;
 	margin: auto;
 	}
 
+#footer{
+	text-indent:2em;
+	}
 
 
