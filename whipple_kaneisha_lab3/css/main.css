@@ -14,7 +14,7 @@ body{
 /* Start of Navigation	 */
 #navbar ul {
 margin: 0;
-padding: 5px; /* Set margin and padding for cross browser consistency. */
+padding: 10px; /* Set margin and padding for cross browser consistency. */
 list-style-type: none;
 text-align: center; /* Centers navigation bar */
 background-color: #000;
@@ -46,10 +46,10 @@ background-color: #c29e6e;
 	}
 	
 /* #gallery{ */
-  float:left;
+/*   float:left; */
 }
 /* #gallery{ */
-  clear:left;
+/*   clear:left; */
 }
 
 .image-line {
@@ -64,13 +64,26 @@ background-color: #c29e6e;
    clear: both;
 }
 
-/* #gallery{ */
-	border-style: solid;
-	}
 /* End of Gallery */
+	
+
+h3{
+	text-align: center;
+	}
 	
 ul{
 	text-align: center;
 	}
-
+	
+#footer{
+	text-indent:2em;
+	}
+	
+h2{
+	margin: 8px;
+	}
+	
+#footer{
+	text-indent: 2em;
+	}
 
