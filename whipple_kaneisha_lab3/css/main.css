@@ -36,7 +36,7 @@ color: #000;
 background-color: #c29e6e;
 }
 /* End of Navigation */
-
+/* Start of Gallery */
 #gallery{
 	list-style-type: none;
 	}
@@ -64,5 +64,13 @@ background-color: #c29e6e;
    clear: both;
 }
 
+/* #gallery{ */
+	border-style: solid;
+	}
+/* End of Gallery */
+	
+ul{
+	text-align: center;
+	}
 
 
