@@ -1,0 +1,49 @@
+/*------------- Layout -----------*/
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	}
+	
+body{
+	background: -moz-linear-gradient(top,  #01232c 0%, #051310 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01232c), 		color-stop(100%,#051310)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #01232c 0%,#051310 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #01232c 0%,#051310 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #01232c 0%,#051310 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #01232c 0%,#051310 100%); /* W3C */
+	}
+	
+p{
+	color: #8fe6fa;
+	}
+	
+h1{
+	font-family: 'Orbitron', sans-serif;
+	}
+
+#main {
+    float:left;
+    width:500px;
+    }
+
+aside{
+    float:right;
+    width:250px;
+    color: #8fe6fa;
+    }
+    
+section{
+	width: 500px;
+	}
+	
+#cta{
+	width: 960px;
+	}
+
+footer{
+    clear:both;
+    text-indent: 13em
+/*     background-image: url(../images/gradient.jpg); */
+    }
+
+
