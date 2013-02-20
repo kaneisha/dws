@@ -16,7 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000a0c', end
 	}
 	
 p{
-	color: #fff;
+	color: #8fe6fa;
 	}
 	
 dl{
@@ -25,7 +25,7 @@ dl{
 	
 h1,h2{
 	font-family: 'Orbitron', sans-serif;
-	color: #8fe6fa;
+	color: #fff;
 	}
 
 #main {
@@ -60,14 +60,14 @@ section{
 /*----------------- Navigation ---------------*/
 nav ul {
 	list-style: none;
-	width: 300px;
+	width: 600px;
 	padding: 0;
 	overflow: hidden;
 	margin: 0 auto;
 }
 
 nav li{
-	width: 100px;
+	width: 200px;
 	float: left;
 }
 
@@ -81,37 +81,37 @@ nav a{
 	}
 	
 nav a:hover{
-	background-position: 0 -100px; 
+	background-position: -100 100px; 
 }
 
 nav a:active{
-	background-position: 0 -200px; 	
+	background-position: -100 200px; 	
 }
 
 /*----- Shop Btn ------*/
 .shop {
-	background-position: -100px 0;
+	background-position: -200px 0;
 }
 
 .shop:hover{
-	background-position: -100px -100px;
+	background-position: -200px -100px;
 }
 
 .shop:active{
-		background-position: -100px -200px;
+		background-position: -200px -200px;
 }
 
 /*----- Support Btn ------*/
 .support {
-	background-position: -200px 0;
+	background-position: -400px 0;
 }
 
 .support:hover{
-	background-position: -200px -100px;
+	background-position: -400px -100px;
 }
 
 .support:active{
-	background-position: -200px -200px;
+	background-position: -400px -200px;
 }
 	
 
