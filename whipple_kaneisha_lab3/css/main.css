@@ -5,7 +5,7 @@
 	}
 	
 #wrapper{
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	}
 
@@ -16,10 +16,12 @@ body{
 /* Start of Navigation	 */
 #navbar ul {
 margin: 0;
-padding: 10px; /* Set margin and padding for cross browser consistency. */
+padding: 10px 2.5%; /* Set margin and padding for cross browser consistency. */
 list-style-type: none;
 text-align: center; /* Centers navigation bar */
 background-color: #000;
+float: right;
+width: 41.6666667%;/*400px/960*/
 	}
 
 #navbar ul li {
@@ -51,7 +53,7 @@ ul#gallery{
 ul#gallery li{
 	display: inline;
 	float: left;
-	margin: 15px 30px 15px 0;
+	margin: 15px 30px 15px 0; /* 30/960 */
 	list-style-type: none;
 	}
 	
@@ -68,11 +70,12 @@ ul#gallery a{
 	
 .center{
 	margin: auto;
-	width: 480px;
+	width: 50%; /*480/960*/
 	}
 
 h1{
-	border-bottom-style: solid
+	border-bottom-style: solid;
+	margin: 0 0 18px;
 	}
 	
 header{
@@ -95,25 +98,24 @@ h2{
 
 /* Border	 */
 #container {
-  width: 960px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 /*   margin: 12px; */
-  border: solid #000 1em;
 	}
 
 #content{
   float: left;
   width: 245px;
-  margin: 25px 70px 75px 125px;
+  margin: 25px 5.208333% 75px 15.625%;
   padding: 30px 20px;
 	}
 
 #content2 {
   float: left;
   width: 245px;
-  margin: 25px 55px 75px 100px;
-  padding:30px 20px;
+  margin: 25px 55px 75px 90px;
+  padding:30px 10px;
 	}
 /* End of Border */
 
@@ -122,4 +124,9 @@ footer{
 	clear: both;
 	padding: 5px 0;
 	}
+	
+@media screen and (max-width: 864px) {
+	
+}
+
 
