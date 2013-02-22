@@ -58,10 +58,13 @@ ul#gallery li{
 	list-style-type: none;
 	}
 	
-ul#gallery a{
+#gallery a{
 	display: block
 	}
-
+	
+ul#gallery img {
+	max-width:100%;
+	}
 /* End of Gallery */
 
 #other{
@@ -110,12 +113,16 @@ h2{
   margin: 25px 5.208333% 75px 15.625%;
   padding: 30px 20px;
 	}
+	
+#content img{
+	max-width: 100%;
+	}
 
 #content2 {
   float: left;
   width: 25.520833%;
   margin: 25px 5.729167% 75px 9.375%;
-  padding:30px 20px;
+  padding: 30px 2.31481481%;
 	}
 /* End of Border */
 
@@ -124,4 +131,145 @@ footer{
 	clear: both;
 	padding: 5px 0;
 	}
+	
+@media screen and (max-width: 863px) {
+	#wrapper{
+		position: relative;
+		margin: 0 10px;
+		width: auto;
+		}
+	#navbar ul li a {
+		text-decoration: none;
+		padding: .1em .5em;
+		color: #fff;
+		background-color: #000;
+		}
+	ul#gallery li {
+		margin: 4px;
+		width: auto;
+		max-width: 100%;
+		float: none;
+		}
+	footer{
+		text-indent: 10em;
+		clear: both;
+		padding; 3px 0;
+		}	
+	}
+	
+@media screen and (max-width: 729px) {
+	#navbar ul li a {
+		text-decoration: none;
+		padding: .1em .1em;
+		color: #fff;
+		background-color: #000;
+		}
+	#navbar ul {
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+		text-align: center; /* Centers navigation bar */
+		background-color: #000;
+		float: right;
+		width: 41.6666667%
+	}
+	ul#gallery li {
+		margin: 0px;
+		width: auto;
+		max-width: 100%;
+		float: none;
+		}
+	footer{
+		text-indent: 5em;
+		clear: both;
+		padding; 2px 0;
+		}	
+	}
+	
+@media screen and (max-width: 605px) {
+	#navbar ul li a {
+		text-decoration: none;
+		padding: 0em 0em;
+		color: #fff;
+		background-color: #000;
+		}
+	#navbar ul {
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+		text-align: center; /* Centers navigation bar */
+		background-color: #000;
+		float: right;
+		width: 41.6666667%
+		}
+	ul#gallery li{
+		float: none;
+	h1{
+		margin: 0px 0px 20px;
+		border-bottom-style: solid
+		}
+	#content{
+  		float: none;
+  		width: 300px;
+  		margin: 25px 5.208333% 75px 15.625%;
+  		padding: 30px 20px 10px;
+		}
+	#content2 {
+  		float: none;
+  		width: 300px;
+  		margin: 10px 5.729167% 75px 9.375%;
+  		padding: 10px 35px;
+		}
+	footer{
+		text-indent: 0px;
+		clear: both;
+		padding; 0px 0;
+		}	
+	}
+	
+@media screen and (max-width: 556px) {
+	#navbar ul {
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+		text-align: center; /* Centers navigation bar */
+		background-color: #000;
+		float: none;
+		width: 500px;
+		}
+	#navbar ul li{
+		display: inline;
+		width: 100px;
+		}
+	h1{
+		margin: 0px 0px 20px;
+		border-bottom-style: solid
+		}
+	ul#gallery li{
+		display: inline;
+		float: none;
+		margin: 15px 3.125% 15px 0; /* 30/960 */
+		list-style-type: none;
+		width: 300px;
+		}
+	#content{
+  		float: none;
+  		width: 300px;
+  		margin: 25px 5.208333% 75px 15.625%;
+  		padding: 30px 20px 10px;
+		}
+	#content2 {
+  		float: none;
+  		width: 300px;
+  		margin: 10px 5.729167% 75px 9.375%;
+  		padding: 10px 35px;
+		}
+	footer{
+		text-align: center;
+		}
+	h1 p{
+		margin: 10px 0px 0px;
+		}
+	}
+	
 
