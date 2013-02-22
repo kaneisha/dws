@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri , sans-serif; 
+	}
+	
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+	}
+
+body{
+	background-color: #c29e6e;
+	}
+
+/* Start of Navigation	 */
+#navbar ul {
+margin: 0;
+padding: 10px; /* Set margin and padding for cross browser consistency. */
+list-style-type: none;
+text-align: center; /* Centers navigation bar */
+background-color: #000;
+	}
+
+#navbar ul li {
+display: inline; /* Needed to create horizontal effect */
+	}
+
+#navbar ul li a {
+text-decoration: none;
+padding: .2em 1em; /* Gives the link space inside it's individual block. */
+color: #fff;
+background-color: #000;
+	}
+
+#navbar ul li a:hover {
+color: #000;
+background-color: #c29e6e;
+	}
+/* End of Navigation */
+
+/* Start of Gallery */
+	
+ul#gallery{
+	clear: both;
+	padding: 0;
+	margin: auto;
+	overflow: hidden;
+	}
+	
+ul#gallery li{
+	display: inline;
+	float: left;
+	margin: 15px 30px 15px 0;
+	list-style-type: none;
+	}
+	
+ul#gallery a{
+	display: block
+	}
+
+/* End of Gallery */
+
+#other{
+	clear: both;
+	padding: 10px 0;
+	}
+	
+.center{
+	margin: auto;
+	width: 480px;
+	}
+
+h1{
+	border-bottom-style: solid
+	}
+	
+header{
+	margin: 14px 0px 0px;
+	}
+	
+h3{
+	text-align: center;
+	}
+	
+ul{
+	text-align: center;
+	list-style-type: none;
+	
+	}
+	
+h2{
+	margin: 6px;
+	}
+
+/* Border	 */
+#container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+/*   margin: 12px; */
+  border: solid #000 1em;
+	}
+
+#content{
+  float: left;
+  width: 245px;
+  margin: 25px 70px 75px 125px;
+  padding: 30px 20px;
+	}
+
+#content2 {
+  float: left;
+  width: 245px;
+  margin: 25px 55px 75px 100px;
+  padding:30px 20px;
+	}
+/* End of Border */
+
+footer{
+	text-indent: 13em;
+	clear: both;
+	padding: 5px 0;
+	}
+
