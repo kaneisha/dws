@@ -48,6 +48,7 @@ ul#gallery{
 	padding: 0;
 	margin: auto;
 	overflow: hidden;
+	max-width: 100%
 	}
 	
 ul#gallery li{
