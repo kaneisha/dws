@@ -132,6 +132,7 @@ footer{
 	padding: 5px 0;
 	}
 	
+/*------- Media Queries ------------*/
 @media screen and (max-width: 863px) {
 	#wrapper{
 		position: relative;
@@ -240,6 +241,7 @@ footer{
 	#navbar ul li{
 		display: inline;
 		width: 100px;
+		padding: 10px;
 		}
 	h1{
 		margin: 0px 0px 20px;
