@@ -1,15 +1,8 @@
-body{
-	background: #688ecd;
-	}
-
 #wrapper{
-	width: 760px;
+	width: 960px;
 	margin: 0 auto;
-	position: relative;
-	background-color: #fff;
-	height: 1500px;
 	}
-
+	
 #header{
 	background: url(../img/bg_header.jpg) no-repeat;
 	padding: 10px 0;
@@ -23,33 +16,33 @@ body{
 	
 #content{
 	position: absolute;
-	left: 526px;
-	top: 300px;
+	left: 527px;
+	top: 295px;
 	background: url(../img/sprocket.gif) no-repeat;
 	width: 339px;
 	height: 583px;
 	}
-#contact{
+#proposition{
 	font-family: verdana, sans-serif;
 	font-style: italic;
 	color: #4a7cb6;
 	position: absolute;
-	top: -20px;
 	left: -300px;
+	}
+#text{
+	left: -300px;
+	top: 800px;
 	}
 /* ---------------------------------Navigation----------------------------------------- */	
 ul#nav{
 	list-style-type: none;
-	background: url(../img/global_shadow.png) repeat-y #fff;
-	left: 20px;
-	top: 200px;
+	background: url(../img/global_shadow.png) repeat-y;
 	}
 ul#nav li a:link, a:visited{
 	text-decoration: none;
 	font-style: italic;
 	font-family: arial, sans-serif;
 	color: #000;
-	margin: 0 0;
 /* 	border: solid #d8d8d8 thin; */
 /* 	border-left: 1px #d8d8d8; */
 /* 	border-bottom: 1px #d8d8d8; */
@@ -67,18 +60,16 @@ ul#nav li{
 	}
 	
 #intellectual_business_solutions{
-	background: url(../img/logo.png) no-repeat #fff center;
-	margin: 0 auto;
-	padding: 10px 0;
-	width: 215px;
-	height: 46px;
+	background: url(../img/logo.png) no-repeat;
+	width: 212px;
+	height: 63px;
 	border-top: solid 11px #016a8d;
 	border-bottom: #f19f6b solid 2px;
 	}
 #intellectual_business_solutions a{
 	display: block;
-	width: 215px;
-	height: 46px;
+	width: 212px;
+	height: 71px;
 	text-indent: -20000px;
 	}
 	

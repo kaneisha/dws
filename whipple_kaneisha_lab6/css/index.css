@@ -1,5 +1,7 @@
 body{
 	background: #688ecd;
+	margin: 0;
+	padding: 0;
 	}
 
 #wrapper{
@@ -12,6 +14,7 @@ body{
 
 #header{
 	background: url(../img/bg_header.jpg) no-repeat;
+	margin: 0;
 	padding: 10px 0;
 	width: 761px;
 	height: 277px;
@@ -23,19 +26,18 @@ body{
 	
 #content{
 	position: absolute;
-	left: 526px;
-	top: 300px;
-	background: url(../img/sprocket.gif) no-repeat;
-	width: 339px;
-	height: 583px;
+	left: 235px;
+	background: url(../img/sprocket.gif) no-repeat top right;
+	width: 525px;
+	top: 278px;
 	}
-#contact{
+h2{
 	font-family: verdana, sans-serif;
 	font-style: italic;
 	color: #4a7cb6;
-	position: absolute;
-	top: -20px;
-	left: -300px;
+	}
+#text{
+	top: 300px;
 	}
 /* ---------------------------------Navigation----------------------------------------- */	
 ul#nav{
@@ -69,7 +71,7 @@ ul#nav li{
 #intellectual_business_solutions{
 	background: url(../img/logo.png) no-repeat #fff center;
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 10px 0px;
 	width: 215px;
 	height: 46px;
 	border-top: solid 11px #016a8d;
@@ -87,6 +89,7 @@ ul#nav li{
 	top: 200px;
 	width: 212px;
 	height: 474px;
+	padding: 0px 20px
 	}
 #quote{
 	color: #dadada;
