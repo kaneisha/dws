@@ -1,7 +1,7 @@
 body{
-	background: #688ecd;
 	margin: 0;
 	padding: 0;
+	background: url(../img/bg_shadow.png) no-repeat top center #688ecd;
 	}
 
 #wrapper{
@@ -9,7 +9,6 @@ body{
 	margin: 0 auto;
 	position: relative;
 	background-color: #fff;
-	height: 1500px;
 	}
 
 #header{
@@ -23,7 +22,7 @@ body{
 	text-indent: 20px;
 	top: auto;
 	}
-	
+/* -----------------------------Content--------------------------------------------	 */
 #content{
 	position: absolute;
 	left: 235px;
@@ -36,33 +35,24 @@ h2{
 	font-style: italic;
 	color: #4a7cb6;
 	}
-#text{
-	top: 300px;
-	}
 /* ---------------------------------Navigation----------------------------------------- */	
 ul#nav{
 	list-style-type: none;
-	background: url(../img/global_shadow.png) repeat-y #fff;
 	left: 20px;
 	top: 200px;
+	padding: 0;
 	}
 ul#nav li a:link, a:visited{
 	text-decoration: none;
 	font-style: italic;
 	font-family: arial, sans-serif;
-	color: #000;
+	color: #424242;
 	margin: 0 0;
-/* 	border: solid #d8d8d8 thin; */
-/* 	border-left: 1px #d8d8d8; */
-/* 	border-bottom: 1px #d8d8d8; */
-/* 	border-right: 1px #d8d8d8; */
-/* 	padding: 0 10px; */
 	}
 ul#nav li{
-	border: solid #d8d8d8 thin;
-	border-left: 1px #d8d8d8;
-	border-bottom: 1px #d8d8d8;
-	border-right: 1px #d8d8d8;
+	border-bottom: solid 1px #d8d8d8;
+	width: 195px;
+	padding: 0px 0px 0px 30px;
 	}
 #active{
 	color: #4a7cb6;
@@ -72,32 +62,43 @@ ul#nav li{
 	background: url(../img/logo.png) no-repeat #fff center;
 	margin: 0 auto;
 	padding: 10px 0px;
-	width: 215px;
+	width: 212px;
 	height: 46px;
 	border-top: solid 11px #016a8d;
 	border-bottom: #f19f6b solid 2px;
 	}
 #intellectual_business_solutions a{
 	display: block;
-	width: 215px;
+	width: 212px;
 	height: 46px;
 	text-indent: -20000px;
+	margin: 0 auto;
 	}
-	
+#global_shadow{
+/* 	background: url(../img/global_shadow.png) no-repeat top center; */
+	background-color: red;
+	position: absolute;
+	width: 215px;
+	top: 200px;
+	left: 20px;
+	}	
 #global{
 	position: absolute;
-	top: 200px;
 	width: 212px;
 	height: 474px;
-	padding: 0px 20px
+	padding: 0px 0px;
+	margin: 0 auto;
 	}
 #quote{
 	color: #dadada;
 	font: italic normal bold 14px 'Trebuchet MS', serif;
+	background: url(../img/quote_left.gif) no-repeat,url(../img/quote_right.gif) no-repeat bottom right;
+	padding: 0px 20px;
 	}
 	
 address, #phone{
 	font-family: arial, sans-serif;
 	font-size: 12px;
 	text-align: center;
+	color: #555;
 	}
