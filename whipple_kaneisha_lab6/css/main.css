@@ -28,12 +28,14 @@ body{
 	}
 /* -----------------------------Content--------------------------------------------	 */
 #content{
-	position: absolute;
-	left: 235px;
+/* 	position: absolute; */
+/* 	left: 235px; */
 	background: url(../img/sprocket.gif) no-repeat top right,#fff;
-	width: 525px;
-	top: 278px;
+	width: 485px;
+/* 	top: 278px; */
 	color: #191919;
+	margin: -39px 0px 0px 235px;
+	padding: 0px 20px;
 	}
 h2{
 	font-family: verdana, sans-serif;
@@ -56,7 +58,7 @@ ul#nav li a:link, a:visited{
 	}
 ul#nav li{
 	border-bottom: solid 1px #d8d8d8;
-	width: 195px;
+	width: 180px;
 	padding: 0px 0px 0px 30px;
 	line-height: 30px;
 	}
@@ -72,30 +74,32 @@ ul#nav li{
 	height: 46px;
 	border-top: solid 11px #016a8d;
 	border-bottom: #f19f6b solid 2px;
-	overflow: hidden;
+/* 	overflow: hidden; */
 	}
 #intellectual_business_solutions a{
 	display: block;
-	width: 212px;
+	width: 214px;
 	height: 46px;
 	text-indent: -20000px;
 	margin: 0 auto;
 	}
 #global_shadow{
-/* 	background: url(../img/global_shadow.png) no-repeat top center; */
-	background-color: red;
+	background: url(../img/global_shadow.png) no-repeat top center;
 	position: absolute;
-	width: 215px;
 	top: 200px;
 	left: 20px;
+	width: 220px;
 	}	
 #global{
+/* 	background: #fff url(../img/global_shadow.png) no-repeat top center; */
 	position: absolute;
 	width: 212px;
 	height: 474px;
 	padding: 0px 0px;
-	margin: 0 auto;
-	background-color: #fff;
+	border-left: solid 1px #d8d8d8;
+	border-right: solid 1px #d8d8d8;
+/* 	margin: 0 auto; */
+/* 	background-color: #fff; */
 	}
 #quote{
 	color: #dadada;
@@ -109,4 +113,9 @@ address, #phone{
 	font-size: 12px;
 	text-align: center;
 	color: #555;
+	}
+	
+#map{
+	width: 465px;
+	height: 465px;
 	}
