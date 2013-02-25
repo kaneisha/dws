@@ -1,5 +1,5 @@
 html{
-	background-color: #fff;
+	background-color: #688ecd;
 	}
 
 body{
@@ -30,7 +30,7 @@ body{
 #content{
 	position: absolute;
 	left: 235px;
-	background: url(../img/sprocket.gif) no-repeat top right;
+	background: url(../img/sprocket.gif) no-repeat top right,#fff;
 	width: 525px;
 	top: 278px;
 	color: #191919;
@@ -72,6 +72,7 @@ ul#nav li{
 	height: 46px;
 	border-top: solid 11px #016a8d;
 	border-bottom: #f19f6b solid 2px;
+	overflow: hidden;
 	}
 #intellectual_business_solutions a{
 	display: block;
@@ -94,6 +95,7 @@ ul#nav li{
 	height: 474px;
 	padding: 0px 0px;
 	margin: 0 auto;
+	background-color: #fff;
 	}
 #quote{
 	color: #dadada;
