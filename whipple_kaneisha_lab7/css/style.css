@@ -1,3 +1,4 @@
+/* ---------------------Layout---------------------- */
 body{
 	background-color: #39f;
 	font-family: tahoma, sans-serif;
@@ -23,26 +24,13 @@ h1{
 	font-style: italic;
 	text-align: center;
 	}
-.log-in{
-	position: absolute;
-	right: 150px;
-	width: 200px;
-	top: 45px;
-	}
 label{
 	text-align: right;
 	float: left;
 	width: 250px;
 	}
-.profile-link-prefix{
-
-	}
 .note{
-	text-align: center;
-	}
-	
-ul{
-	list-style-type: none;
+	margin: 0 0 0 95px;
 	}
 #submit{
 	width:150px;
@@ -64,5 +52,76 @@ ul{
 input:focus{
 	background-color: #afafaf;
 	}
+.birth{
+	margin: 0 0 0 -70px;
+	}
+/* ----------------Level 3----------------------- */
+.log-in{
+	position: absolute;
+	right: 150px;
+	width: 200px;
+	top: 45px;
+	}
+	
+.whole{
+	margin: 0 0 0 30px;
+	}
+	
+#field-profile-link{
+	margin: 10px 0 0 45px;
+	}
+
+.profile-link-prefix{
+	margin: 130px 0 0 0;
+	}
+
+#profile_link{
+	margin: 0 0 0 210px;
+	}
+
+ul{
+	list-style-type: none;
+	}
+
+#website_url,#website_name,textarea{
+	width: 326px;
+	margin: 0 0 0 6px;
+	}
+
+#field-agree-tos a{
+	display: inline;
+	}
+	
+#email,#password,#password_confirmation{
+	margin: 0 0 0 6px;
+	}
+	
+.profile{
+	margin: 10px 0 0;
+	}
+	
+/* ------------Level 4-------------------------	 */
+
+.about{
+	margin: 10px 0 0 -60px;
+	}
+	
+.name{
+	margin: 10px 0 0;
+	}
+	
+#lastname,#firstname,#your_photo{
+	margin: 0 0 0 6px;
+	}
+
+#dob_year,#dob_day,#dob_month{
+	margin: 0 0 0 5px;
+	}
+	
+#male{
+	float: left;
+	margin: 6px 3px 2px 5px;
+	}	
+	
 
 	
